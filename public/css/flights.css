@@ -1,0 +1,13 @@
+#search{
+    padding-top: 100px;
+}
+@media(max-width: 420px) {
+    #search{
+        padding-top: 0px;
+    }
+}
+
+.lesclasses {
+    color: black !important;
+    background-color: #fff !important;
+}

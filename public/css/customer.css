@@ -1,0 +1,82 @@
+.accordion.style-2 p {
+    color: #000 !important;
+}
+
+.select-rooms {
+    z-index: 1;
+    width: 400px;
+    top: 53px;
+    padding: 10px;
+    color: #000;
+    box-shadow: 3px 3px 8px -4px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.up-caret {
+    top: -15px;
+    color: #fff;
+    left: 2pc;
+}
+
+.title-select {
+    height: 36%;
+    padding: 5px 0px 5px 15px;
+    border-bottom: 1px solid #dddddd61;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.body-select {
+    height: 67%;
+}
+
+.body-select .row {
+    margin: 0;
+}
+
+.body-select label {
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.input-count {
+    height: 78%;
+    display: flex;
+    align-items: center;
+}
+
+.input-count-text {
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #00adef;
+    margin: 0 5px;
+    border: none;
+    background: #fff;
+}
+
+.input-count-btn:hover {
+    color: #00adef;
+}
+
+.input-count-btn {
+    color: #e3e1e1;
+}
+
+.close-select:hover {
+    color: #00adef !important;
+}
+
+.inner-banner.style-6 {
+    height: 350px;
+}

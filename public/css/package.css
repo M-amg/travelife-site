@@ -1,0 +1,61 @@
+button.owl-next {
+    right: 10px;
+}
+
+button.owl-prev {
+    left: 10px;
+}
+
+button.owl-next, button.owl-prev {
+    position: absolute;
+    top: 44%;
+    color: #fff !important;
+    background: #0000005e !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarif {
+    display: none;
+}
+
+.text-programme-line:after {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #eef3f7;
+    border-width: 10px;
+    top: 15px;
+
+}
+
+.cbp_tmicon {
+
+    width: 90px;
+    height: 90px;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 80px;
+    position: absolute;
+    color: #ff9933;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #eef3f7;
+    float: left;
+    margin-left: 15px
+}
+
+.seeTarif {
+    cursor: pointer;
+}

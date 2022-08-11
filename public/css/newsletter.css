@@ -1,0 +1,53 @@
+.newsletter{
+    background: white;
+    padding: 120px;
+}
+.newsletter form{
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .newsletter{
+        padding: 60px;
+    }
+    .newsletter form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .newsletter{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .newsletter{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .newsletter form{
+        width: 100%;
+    }
+}
+.newsletter .fields{
+    border: 2px solid #eaeaea;
+}
+.newsletter p{
+    line-height: 26px; 
+    font-size: 26px;
+    text-align: center;
+}
+.newsletter input{
+    border: none;
+    padding: 20px
+}
+input[type="submit"]{
+    color: white;
+    background: #f44336;
+    transition: .3s;
+}
+input[type="submit"]:hover{
+    color: #f44336;
+    background: white;
+    transition: .3s;
+}
